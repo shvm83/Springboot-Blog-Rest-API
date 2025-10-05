@@ -35,3 +35,12 @@ The project is structured logically into well-defined packages:
  * security: Core security components (JWT filter, token provider, user details service).
  * exception: Custom exception classes and the global handler.
  * utils: Utility classes (AppConstants, PasswordEncoderGenerator).
+
+ Technology Stack
+| Component | Technology / Framework |
+| Backend Framework | Spring Boot |
+| Data Persistence | Spring Data JPA (Hibernate) |
+| Security | Spring Security with JWT |
+| Database | Configurable via application.properties |
+| Build Tool | Maven |
+| Language | Java |
